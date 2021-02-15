@@ -1,0 +1,32 @@
+{
+  "parameters":{
+    "log":{
+            "timestamp": "2019-10-29T15:55:07.699Z",
+            "correlationId": "d1f8c764-f345-42ac-90f5-ff8b1f01708f",
+            "level": "ERROR",
+            "component": "ai.platform.model.request",
+            "clientId": "0018c764-f345-42ac-90f5-ff8b1f01708f",
+            "engagementId": "d1f8c764-f345-42ac-90f5-ff8b1f01708f",    
+            "regionAndEnv":"UE-PROD",
+            "serverInfo":"PZI-GXUS-N-AILABS-AKS-P002",
+            "modelName" : "model_name",
+            "modelVersion" : "v?",
+            "filename" : "filename",
+            "message": "<standard_error_message>",
+            "stacktrace": "traceback()"
+        }
+    },
+  "data":[
+      {
+          "filename": "news data",
+          "format" : "dataframe",
+          "content" :[
+                {"text": "I like this movie."},
+                {"text": "I don't like this movie."},
+                {"text": "I hate this movie."},
+                {"text": "Dogs have the scientific name Canis familiaris"},
+                {"text": "Easy Navigation Nice View and Availability of Assets Points accumulation of Contributor and Consumer"}
+            ]
+      }
+    ]
+}
